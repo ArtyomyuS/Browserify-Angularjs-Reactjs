@@ -7,7 +7,7 @@ var ngResource = require('angular-resource');
 var ngSanitize = require('angular-sanitize');
 var ngTouch = require('angular-touch');
 var uiRouter = require('angular-ui-router');
-var ngReact = require('ngreact');
+var react = require('ngreact');
 
 
 /**
@@ -20,8 +20,9 @@ var app = angular.module('app',
         'ngResource',
         'ngSanitize',
         'ngTouch',
-        'ngReact',
-        'ui.router'
+
+        'ui.router',
+        'react'
     ]
 );
 

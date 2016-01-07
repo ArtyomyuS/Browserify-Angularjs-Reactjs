@@ -3,7 +3,7 @@
 /**
  * MainController
  */
-var Angular = require("Angular");
+var Angular = require("angular");
 
 var MainController = Angular.module('app')
     .controller('MainController', ['$scope', function ($scope) {

@@ -1,7 +1,7 @@
 'use strict';
 
 var React = require('react');
-var Angular = require('Angular');
+var Angular = require('angular');
 
 /**
  */
