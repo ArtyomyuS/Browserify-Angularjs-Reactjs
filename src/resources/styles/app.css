@@ -1,0 +1,131 @@
+body {
+  font-family: Lato, sans-serif;
+  color: #888888;
+  text-shadow: 0 0 1px #111000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #2B2B2B; }
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 5px;
+  font-family: 'Oswald', sans-serif; }
+
+.wrapper {
+  position: relative;
+  vertical-align: top;
+  margin: auto;
+  width: 800px;
+  min-width: 400px; }
+
+.bgr-video {
+  z-index: -1;
+  opacity: 0.1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url("resources/images/bgr.jpg") no-repeat;
+  background-size: cover; }
+
+.IntroLayout {
+  margin-top: 5vh;
+  min-height: 200px; }
+  .IntroLayout:before {
+    content: "\00a0";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    height: 40vh;
+    max-height: 500px;
+    top: 0;
+    right: -100px;
+    background: url("resources/images/classy-fabric.png") #313238;
+    width: 260%;
+    -ms-transform: rotate(170deg);
+    /* IE 9 */
+    -webkit-transform: rotate(170deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(170deg);
+    -webkit-box-shadow: inset -5px -5px 15px 5px #111;
+    -moz-box-shadow: inset -5px -5px 15px 5px #111;
+    box-shadow: inset -5px -5px 15px 5px #111; }
+  .IntroLayout .logo {
+    position: absolute; }
+  .IntroLayout h1 {
+    letter-spacing: 7px;
+    font-size: 30px;
+    margin-left: 115px;
+    display: block;
+    padding-top: 20px;
+    margin-bottom: 0px; }
+  .IntroLayout p {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    margin-left: 115px; }
+
+.HorizontalLine {
+  border-top: 1px solid #1d1d1d;
+  border-bottom: 1px solid #3c3c3c;
+  height: 0;
+  width: auto;
+  display: block; }
+
+.Media {
+  vertical-align: text-top;
+  display: inline-block;
+  max-width: 250px;
+  margin-right: 15px; }
+
+.Media:last-child {
+  margin-right: 0; }
+
+.Media .Media-left {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  width: 100%; }
+
+.Media .Media-body {
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+
+.Media i {
+  z-index: 1;
+  position: relative;
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  background-color: #5B5A5C;
+  padding: 25px;
+  border-radius: 50%;
+  border: solid 6px #3C3F41;
+  -webkit-box-shadow: 0 0 1px #1d1d1d;
+  -moz-box-shadow: 0 0 1px #1d1d1d;
+  box-shadow: 0 0 1px #1d1d1d; }
+
+.Media h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px; }
+
+.Media p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 0;
+  letter-spacing: 2px; }
+
+/*# sourceMappingURL=app.css.map */
